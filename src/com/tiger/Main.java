@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         AuthorizationToken newAuthToken = new AuthorizationToken();
         Root root = StoresParser.parse(newAuthToken);
-        root.
+        root.toString();
+        root.toString();
     }
 }

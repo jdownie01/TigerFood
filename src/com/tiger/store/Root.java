@@ -1,9 +1,11 @@
 package com.tiger.store;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonRootName;
 import com.tiger.store.properties.*;
 import java.util.List;
 
+@JsonRootName(value = "id")
 public class Root {
     String id;
     String image;
