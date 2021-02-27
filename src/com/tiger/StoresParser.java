@@ -28,12 +28,7 @@ public class StoresParser {
             System.out.println(jsonString);
             JSONObject obj = new JSONObject(jsonString);
             ObjectMapper om = new ObjectMapper();
-
-            Type listType = new TypeToken<List<Type>>() {}.getType();
-            Gson gson = new Gson();
-            List<Type> outList = gson.fromJson(output, listType);
-            System.out.println(outList);
-            Root root = om.readValue(outList.get(0).toString().replaceAll("^.|.$", "").replaceAll("/n",""),Root.class);
+            Root root = om.readValue(output.replaceAll("^.|.$", "").replaceAll("/n",""),Root.class);
             return root;
         } catch (Exception e){
             e.printStackTrace();
