@@ -1,11 +1,13 @@
 package com.tiger.store;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 
 import java.util.List;
 
 @JsonRootName(value = "id")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Root {
     String id;
     String name;
