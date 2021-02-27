@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class RtpProfileConfig{
+package com.tiger.config;
+
+public class RtpProfileConfig {
 }

@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class Modifiers{
+package com.tiger.config;
+
+public class Modifiers {
 }

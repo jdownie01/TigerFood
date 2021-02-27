@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class ContentLocalization{
+package com.tiger.config;
+
+public class ContentLocalization {
 }

@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class DisneyConfig{
+package com.tiger.config;
+
+public class DisneyConfig {
 }

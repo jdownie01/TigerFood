@@ -1,3 +1,4 @@
-package com.tiger.item; 
-public class Properties{
+package com.tiger.item;
+
+public class Properties {
 }

@@ -1,10 +1,16 @@
-package com.tiger.config; 
-import com.fasterxml.jackson.annotation.JsonProperty; 
-public class StoreInfoOptions{
-    @JsonProperty("enableMultiKitchenOperations") 
-    public boolean getEnableMultiKitchenOperations() { 
-		 return this.enableMultiKitchenOperations; } 
-    public void setEnableMultiKitchenOperations(boolean enableMultiKitchenOperations) { 
-		 this.enableMultiKitchenOperations = enableMultiKitchenOperations; } 
+package com.tiger.config;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class StoreInfoOptions {
     boolean enableMultiKitchenOperations;
+
+    @JsonProperty("enableMultiKitchenOperations")
+    public boolean getEnableMultiKitchenOperations() {
+        return this.enableMultiKitchenOperations;
+    }
+
+    public void setEnableMultiKitchenOperations(boolean enableMultiKitchenOperations) {
+        this.enableMultiKitchenOperations = enableMultiKitchenOperations;
+    }
 }

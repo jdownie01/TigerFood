@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class GaDiscounts{
+package com.tiger.config;
+
+public class GaDiscounts {
 }

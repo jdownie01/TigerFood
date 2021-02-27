@@ -1,3 +1,4 @@
-package com.tiger.config; 
-public class TenderRestriction{
+package com.tiger.config;
+
+public class TenderRestriction {
 }
