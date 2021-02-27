@@ -1,5 +1,6 @@
 package com.tiger;
 
+import com.tiger.item.Item;
 import com.tiger.store.Category;
 import com.tiger.store.Root;
 
@@ -14,10 +15,7 @@ public class Main {
         Root SolsUnderground = StoresParser.parse(newAuthToken,"2195");
         Root Commons = StoresParser.parse(newAuthToken,"2162");
         System.out.println(Commons.getName());
-        for (Category c : Commons.getMenus().get(0).getCategories()){
-            System.out.println(c.getName());
-            System.out.println(c.getItems());
-        }
+        Item i = StoresParser.getItem(newAuthToken, new String[]{Commons.getMenus().get(0).getCategories().get(0).getItems().get(0)});
 
     }
 }
